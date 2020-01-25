@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: gainsboro;
+}
+.capture {
+    background-color: gold;
+    font-weight: bold;
+}
+
+.div-common {
+    background-color:rgba(137, 181, 199, 0.726) ;
+    border: 5px solid rgb(18, 150, 18);
+}
+
+p,
+span,
+img,
+.items {
+    background-color: burlywood;
+    border: 1px solid red; 
+}
+
+/*flex */
+
+.flex-container {
+    background-color: grey;
+    display: flex;
+    border: 5px solid black;
+    padding: 5px 5px;
+}
+
+.items {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
